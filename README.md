@@ -74,7 +74,7 @@ Here is my trajectory so far, still unfolding:
 - :telescope: **Age 16** Looked up at the night sky and wrote my first orbital simulation code  
 - 🌱 **Age 18** Built reproducible projects and logs, publishing them on GitHub as a growing research portfolio  
 - 	:airplane: **Early 20s** Aim to deepen the most relevant knowledge across engineering, AI, and science for spacecraft control  
-- :alien: **Age 30** Aim to see my controllers tested on real systems, helping spacecraft continue their mission in places unreachable to humans  
+- :alien: **Age 30** Aim to see my controllers tested on real systems, helping spacecraft continue their mission beyond human reach 
 - ♾️ Beyond that The path is uncertain, but the mission will continue  
 
 ---
@@ -83,7 +83,7 @@ Here is my trajectory so far, still unfolding:
 I know these goals may look far beyond reach, but why not try to pursue what truly excites me?  
 
 On the day I defined this project, I wrote my first orbital simulation code.  
-In the summer, I updated daily. Once school starts, it may slow to weekly, but even that is enough.  
+In summer I updated daily; later perhaps weekly — each log still counts. 
 Each step matters, no matter how small.  
 
 Unlike endless drills where I once gave up, these projects keep me alive.  

@@ -102,6 +102,10 @@ The universe is silent. This is my ignition.
 
 <p align="center">
   <a href="https://github.com/Sean-ZhiXin-Li">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sean-ZhiXin-Li&theme=tokyonight" alt="GitHub Streak"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sean-ZhiXin-Li&layout=compact&theme=tokyonight" alt="Top Languages" height="165"/>
   </a>
+</p>
+
+<p align="center">
+  <b>Total Contributions:</b> 205  |  <b>Longest Active Period:</b> 45 days  |  <b>Activity Span:</b> Sep 25, 2024 → Present
 </p>

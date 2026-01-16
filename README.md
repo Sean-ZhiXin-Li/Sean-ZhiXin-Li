@@ -187,13 +187,6 @@ The mission continues anyway.
 
 ---
 
-
-<p align="center">
-  <a href="https://github.com/Sean-ZhiXin-Li?tab=repositories">
-    <img src="https://img.shields.io/badge/GitHub-Language%20Stats-informational" />
-  </a>
-</p>
-
 <p align="center">
   <b>Total Contributions:</b> 205  
   &nbsp;|&nbsp;  
@@ -201,3 +194,5 @@ The mission continues anyway.
   &nbsp;|&nbsp;  
   <b>Activity Span:</b> Sep 2024 → Present
 </p>
+
+https://github-readme-stats.vercel.app/api/top-langs/?username=Sean-ZhiXin-Li&layout=compact

@@ -15,7 +15,7 @@ I explore this question by building **reproducible simulations, controllers, and
 treating learning itself as an engineering process rather than a competition.
 
 > *Trajectories drift. Controllers adapt.  
-Failure is not an end state — it is telemetry.*
+Failure is telemetry.*
 
 ---
 
@@ -49,11 +49,19 @@ It is an evolving system designed with **engineering rigor and traceability**.
 This work produced my first **reproducible orbital transfer simulation**  
 and a **stabilized expert baseline**, validated across multiple orbital conditions.
 
-My long-term aim is to push these simulations toward reliability and robustness,  
-so that ideas explored here remain meaningful beyond toy environments.
+<p>
+  <a href="https://github.com/Sean-ZhiXin-Li/spacecraft-ai-controller">
+    <img src="https://img.shields.io/github/stars/Sean-ZhiXin-Li/spacecraft-ai-controller?style=social" />
+  </a>
+  <a href="https://github.com/Sean-ZhiXin-Li/spacecraft-ai-controller">
+    <img src="https://img.shields.io/github/forks/Sean-ZhiXin-Li/spacecraft-ai-controller?style=social" />
+  </a>
+  <a href="https://github.com/Sean-ZhiXin-Li/spacecraft-ai-controller">
+    <img src="https://img.shields.io/github/issues/Sean-ZhiXin-Li/spacecraft-ai-controller" />
+  </a>
+</p>
 
-👉 Repository  
-[![spacecraft-ai-controller](https://github-readme-stats.vercel.app/api/pin/?username=Sean-ZhiXin-Li&repo=spacecraft-ai-controller&theme=tokyonight)](https://github.com/Sean-ZhiXin-Li/spacecraft-ai-controller)
+🔗 https://github.com/Sean-ZhiXin-Li/spacecraft-ai-controller
 
 ---
 
@@ -68,11 +76,59 @@ Alongside my main project, I build foundational skills across disciplines that s
 - 🛰️ CubeSat structural modeling and CAD exploration  
 - 🎮 Reinforcement learning from simple environments to orbital-scale tasks  
 
-These projects form my **engineering substrate** —  
-a place to test ideas, fail cheaply, and build intuition.
+<p>
+  <a href="https://github.com/Sean-ZhiXin-Li/tech-foundations">
+    <img src="https://img.shields.io/github/stars/Sean-ZhiXin-Li/tech-foundations?style=social" />
+  </a>
+  <a href="https://github.com/Sean-ZhiXin-Li/tech-foundations">
+    <img src="https://img.shields.io/github/forks/Sean-ZhiXin-Li/tech-foundations?style=social" />
+  </a>
+  <a href="https://github.com/Sean-ZhiXin-Li/tech-foundations">
+    <img src="https://img.shields.io/github/issues/Sean-ZhiXin-Li/tech-foundations" />
+  </a>
+</p>
 
-👉 Repository  
-[![tech-foundations](https://github-readme-stats.vercel.app/api/pin/?username=Sean-ZhiXin-Li&repo=tech-foundations&theme=tokyonight)](https://github.com/Sean-ZhiXin-Li/tech-foundations)
+🔗 https://github.com/Sean-ZhiXin-Li/tech-foundations
+
+---
+
+## 🧪 Engineering Training Ground — engineering_ai_playground
+
+A **process-focused engineering repository** designed to build  
+**long-term, lab-ready capability**, not showcase results.
+
+This repository is **not a research project** and **not a product**.  
+It exists to answer one question clearly:
+
+> *Can I independently build, debug, and iterate on a Python + AI engineering system  
+in a Linux environment, from a blank file?*
+
+### What This Repo Emphasizes
+- Python engineering from scratch (no templates)
+- Linux / WSL–based workflow
+- Git discipline and reproducibility
+- Debugging as a first-class skill
+- Clear execution → metrics → verification pipeline
+
+Each run leaves **persistent, inspectable traces**.  
+Failures are preserved, categorized, and verified — never hidden.
+
+This repository supports future research work by strengthening  
+**engineering habits that scale to collaborative lab environments**.
+
+<p>
+  <a href="https://github.com/Sean-ZhiXin-Li/engineering_ai_playground">
+    <img src="https://img.shields.io/github/stars/Sean-ZhiXin-Li/engineering_ai_playground?style=social" />
+  </a>
+  <a href="https://github.com/Sean-ZhiXin-Li/engineering_ai_playground">
+    <img src="https://img.shields.io/github/forks/Sean-ZhiXin-Li/engineering_ai_playground?style=social" />
+  </a>
+  <a href="https://github.com/Sean-ZhiXin-Li/engineering_ai_playground">
+    <img src="https://img.shields.io/github/issues/Sean-ZhiXin-Li/engineering_ai_playground" />
+  </a>
+</p>
+
+🔗 https://github.com/Sean-ZhiXin-Li/engineering_ai_playground
 
 ---
 
@@ -89,9 +145,6 @@ It is about **process integrity**.
 Traditional drills and competitions exhausted me.  
 Open-ended projects taught me persistence.
 
-When exploration replaces pressure,  
-I can work for hours without noticing time passing.
-
 > *Even when today’s trajectory is unclear,  
 the learning system continues to integrate.*
 
@@ -103,14 +156,12 @@ I am curious about the universe —
 about regions no probe has reached and signals that have gone silent.
 
 Each lost spacecraft feels like a failure of endurance.  
-That feeling pushes me to design controllers that:
-- adapt longer  
-- degrade gracefully  
-- survive uncertainty  
+That feeling pushes me to design controllers that adapt longer,  
+degrade gracefully, and survive uncertainty.
 
 I do not attempt to master all of physics or AI.  
 I focus only on what matters for **spacecraft autonomy**,  
-assembling knowledge the way spacecraft are built — module by module.
+assembling knowledge module by module.
 
 ---
 
@@ -120,44 +171,21 @@ This is not a promise.
 It is a direction vector.
 
 - 🌌 **Age 16** — Wrote my first orbital simulation out of curiosity  
-- 🌱 **Now** — Building reproducible AI-controlled orbital systems and logs on GitHub  
-- 🛠️ **Early 20s** — Deepen the most relevant foundations in engineering, AI, and control  
-- 🚀 **Long-term** — Contribute controllers tested beyond simulation, on real systems  
+- 🌱 **Now** — Building reproducible AI-controlled systems and engineering pipelines on GitHub  
+- 🛠️ **Early 20s** — Deepen foundations in engineering, AI, and control  
+- 🚀 **Long-term** — Contribute controllers tested beyond simulation  
 
 The exact path is unknown.  
 The mission continues anyway.
 
 ---
 
-## 💭 Reflection
-
-I know these goals may seem distant.
-
-But unlike endless drills I once abandoned,  
-these projects give me a reason to persist.
-
-Even at 2 a.m., debugging a stubborn failure,  
-I continue — not because I must, but because I want to understand.
-
-Each small commit reminds me:
-progress does not require certainty, only continuity.
-
-The universe is silent.  
-This is my ignition.
-
----
-
 ## 📬 Connect
-- GitHub: [Sean-ZhiXin-Li](https://github.com/Sean-ZhiXin-Li)  
+
+- GitHub: https://github.com/Sean-ZhiXin-Li  
 - Email: tlizxin209625@gmail.com  
 
 ---
-
-<p align="center">
-  <a href="https://github.com/Sean-ZhiXin-Li">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sean-ZhiXin-Li&layout=compact&theme=tokyonight" height="165"/>
-  </a>
-</p>
 
 <p align="center">
   <b>Total Contributions:</b> 205  

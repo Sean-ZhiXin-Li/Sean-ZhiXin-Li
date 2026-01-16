@@ -1,111 +1,168 @@
-<h1 align="center">Hi, I'm Sean (Zhixin Li) 👋</h1>
+<h1 align="center">Hi, I'm Sean (Zhixin Li)</h1>
+
+<p align="center">
+High school student · Self-directed researcher · AI × Spacecraft Control
+</p>
 
 ---
 
 ## ♾️ Mission & Identity
-I wonder how a probe drifts in silence and how AI could become its second heartbeat.  
-I turn this curiosity into reproducible projects and logs, even while still in high school.  
 
-> *Trajectory may drift, but the mission continues. Failure is part of orbit. Persistence is thrust.*
+I am fascinated by how a spacecraft survives in silence —  
+and how intelligence, embedded in software, might become its second heartbeat.
+
+I explore this question by building **reproducible simulations, controllers, and logs**,  
+treating learning itself as an engineering process rather than a competition.
+
+> *Trajectories drift. Controllers adapt.  
+Failure is not an end state — it is telemetry.*
 
 ---
 
-## :satellite: Flagship Project — Spacecraft AI Controller
-A self-directed research project simulating **orbital propulsion systems controlled by AI**.
+## 🛰️ Flagship Project — Spacecraft AI Controller
 
-- Progressing from physics-driven expert baselines → imitation learning → reinforcement learning  
-- Tasks include orbital transfers, thrust ignition, and impulse vs continuous propulsion  
-- Stress tests under noisy inputs, partial faults, and long-duration runs  
-- **Logs and records** treated as mission data, ensuring reproducibility  
+A long-term, self-directed research project focused on  
+**AI-controlled orbital propulsion systems** in simulation.
 
-This project produced my first reproducible orbital transfer simulation and a stabilized baseline, tested under different orbital conditions with results carefully logged.  
-My long-term goal is to make these simulations reliable enough to inspire future real-world spacecraft control.  
+This project is not a demo.  
+It is an evolving system designed with **engineering rigor and traceability**.
 
-👉 Repository:  
+### Core Focus
+- Physics-based orbital dynamics and propulsion modeling  
+- Expert (rule-based) controllers as stable baselines  
+- Transition to imitation learning and reinforcement learning  
+- Decision-making over:
+  - thrust ignition  
+  - thrust magnitude  
+  - impulse vs continuous propulsion  
+- Long-horizon rollouts under:
+  - noisy inputs  
+  - partial actuator faults  
+  - imperfect state information  
+
+### Engineering Principles
+- Every run produces logs treated as **mission data**
+- Results are reproducible and auditable
+- Failures are recorded, categorized, and analyzed
+- Progress is measured by stability and insight, not only reward curves
+
+This work produced my first **reproducible orbital transfer simulation**  
+and a **stabilized expert baseline**, validated across multiple orbital conditions.
+
+My long-term aim is to push these simulations toward reliability and robustness,  
+so that ideas explored here remain meaningful beyond toy environments.
+
+👉 Repository  
 [![spacecraft-ai-controller](https://github-readme-stats.vercel.app/api/pin/?username=Sean-ZhiXin-Li&repo=spacecraft-ai-controller&theme=tokyonight)](https://github.com/Sean-ZhiXin-Li/spacecraft-ai-controller)
 
 ---
 
-## :hammer_and_wrench: Tech Foundations
-Every spacecraft needs a foundation. Alongside my main track, I explore supporting disciplines:
+## 🛠️ Tech Foundations
 
-- :robot: Robotics and control experiments  
-- :zap: Embedded systems with Arduino and sensors  
-- :satellite: CubeSat structural modeling and CAD design  
-- :video_game: Reinforcement learning from simple environments to orbital tasks  
+Every autonomous system stands on layers of engineering.
 
-👉 Repository:  
+Alongside my main project, I build foundational skills across disciplines that support spacecraft autonomy:
+
+- 🤖 Robotics and control experiments  
+- ⚡ Embedded systems (Arduino, sensors, low-level interfaces)  
+- 🛰️ CubeSat structural modeling and CAD exploration  
+- 🎮 Reinforcement learning from simple environments to orbital-scale tasks  
+
+These projects form my **engineering substrate** —  
+a place to test ideas, fail cheaply, and build intuition.
+
+👉 Repository  
 [![tech-foundations](https://github-readme-stats.vercel.app/api/pin/?username=Sean-ZhiXin-Li&repo=tech-foundations&theme=tokyonight)](https://github.com/Sean-ZhiXin-Li/tech-foundations)
 
 ---
 
-## :film_strip: Research Journey
-For me, research is not just about results. It is about rhythm, resilience, and meaning.  
+## 📓 Research Philosophy
 
-Daily commits are like signals from a distant probe, sometimes faint but proof of flight.  
-Failures are not waste but data points, each bug like a drift that forces a corrective burn.  
-Logs serve as navigation records, marking coordinates in a long orbit.  
-Growth is spiral, not linear, always correcting, never still.  
+For me, research is not only about results.  
+It is about **process integrity**.
 
-Traditional drills and competitions drained me, but projects gave me persistence.  
-I learned to treat failures as part of the system, not reasons to quit.  
-Projects gave me a reason to keep moving forward. When I am exploring and creating, I can work all day without noticing time.  
+- Commits are signals: proof that the system is still alive  
+- Bugs are disturbances that reveal structure  
+- Logs are navigation charts through uncertainty  
+- Progress is often spiral, not linear  
 
-> *Even if today’s trajectory is blank, the learning orbit still runs within me.*
+Traditional drills and competitions exhausted me.  
+Open-ended projects taught me persistence.
 
----
+When exploration replaces pressure,  
+I can work for hours without noticing time passing.
 
-## 🌌 Curiosity and Research Path
-I have always been curious about the universe.  
-What might have existed before the Big Bang?  
-What lies in places no probe has ever reached?  
-
-Each time a spacecraft falls silent, I feel a deep sadness, like a heartbeat lost in the dark.  
-That sorrow also becomes motivation: to design controllers that survive longer, adapt better, and carry human curiosity farther.  
-
-I do not chase every subject across engineering, AI, or astrophysics.  
-I focus on the pieces that matter for my mission, combining them like modules of a spacecraft.  
+> *Even when today’s trajectory is unclear,  
+the learning system continues to integrate.*
 
 ---
 
-## :hourglass: Timeline
-Here is my trajectory so far, still unfolding:
+## 🌌 Curiosity & Direction
 
-- :telescope: **Age 16** Looked up at the night sky and wrote my first orbital simulation code  
-- 🌱 **Age 18** Built reproducible projects and logs, publishing them on GitHub as a growing research portfolio  
-- 	:airplane: **Early 20s** Aim to deepen the most relevant knowledge across engineering, AI, and science for spacecraft control  
-- :alien: **Age 30** Aim to see my controllers tested on real systems, helping spacecraft continue their mission beyond human reach 
-- ♾️ Beyond that The path is uncertain, but the mission will continue  
+I am curious about the universe —  
+about regions no probe has reached and signals that have gone silent.
 
----
+Each lost spacecraft feels like a failure of endurance.  
+That feeling pushes me to design controllers that:
+- adapt longer  
+- degrade gracefully  
+- survive uncertainty  
 
-## :thought_balloon: Reflection
-I know these goals may look far beyond reach, but why not try to pursue what truly excites me?  
-
-On the day I defined this project, I wrote my first orbital simulation code.  
-In summer I updated daily; later perhaps weekly — each log still counts. 
-Each step matters, no matter how small.  
-
-Unlike endless drills where I once gave up, these projects keep me alive.  
-Even when I collapse at 2 a.m. over a bug, I continue.  
-Because each small step reminds me that I still have a chance, and I can still chase my dream.  
-
-The universe is silent. This is my ignition.  
+I do not attempt to master all of physics or AI.  
+I focus only on what matters for **spacecraft autonomy**,  
+assembling knowledge the way spacecraft are built — module by module.
 
 ---
 
-## :mailbox: Connect
+## ⏳ Timeline (Evolving)
+
+This is not a promise.  
+It is a direction vector.
+
+- 🌌 **Age 16** — Wrote my first orbital simulation out of curiosity  
+- 🌱 **Now** — Building reproducible AI-controlled orbital systems and logs on GitHub  
+- 🛠️ **Early 20s** — Deepen the most relevant foundations in engineering, AI, and control  
+- 🚀 **Long-term** — Contribute controllers tested beyond simulation, on real systems  
+
+The exact path is unknown.  
+The mission continues anyway.
+
+---
+
+## 💭 Reflection
+
+I know these goals may seem distant.
+
+But unlike endless drills I once abandoned,  
+these projects give me a reason to persist.
+
+Even at 2 a.m., debugging a stubborn failure,  
+I continue — not because I must, but because I want to understand.
+
+Each small commit reminds me:
+progress does not require certainty, only continuity.
+
+The universe is silent.  
+This is my ignition.
+
+---
+
+## 📬 Connect
 - GitHub: [Sean-ZhiXin-Li](https://github.com/Sean-ZhiXin-Li)  
-- Email: tlizxin209625@gmail.com
+- Email: tlizxin209625@gmail.com  
 
 ---
 
 <p align="center">
   <a href="https://github.com/Sean-ZhiXin-Li">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sean-ZhiXin-Li&layout=compact&theme=tokyonight" alt="Top Languages" height="165"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sean-ZhiXin-Li&layout=compact&theme=tokyonight" height="165"/>
   </a>
 </p>
 
 <p align="center">
-  <b>Total Contributions:</b> 205  |  <b>Longest Active Period:</b> 45 days  |  <b>Activity Span:</b> Sep 25, 2024 → Present
+  <b>Total Contributions:</b> 205  
+  &nbsp;|&nbsp;  
+  <b>Longest Active Period:</b> 45 days  
+  &nbsp;|&nbsp;  
+  <b>Activity Span:</b> Sep 2024 → Present
 </p>

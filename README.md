@@ -81,10 +81,10 @@ I am also building foundations in areas that support spacecraft autonomy:
 
 ---
 
-## 💻 Languages & Tools
+## 💻 Languages Used
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sean-ZhiXin-Li&layout=compact&langs_count=6&hide=html,css&theme=default" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Sean-ZhiXin-Li&layout=compact&langs_count=6&hide=html,css&theme=github_dark" />
 </p>
 
 ---

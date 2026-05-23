@@ -45,19 +45,24 @@ What I built:
 
 ---
 
-## 🧪 Engineering Training Ground
+## 🧪 the-new
 
-A process-focused repository for building lab-ready engineering habits:
+A unified engineering workspace for building lab-ready systems habits through real execution.
+
+Current focus:
 
 - Python engineering from scratch
 - Linux / WSL workflow
-- Git discipline
+- Git discipline and repo hygiene
 - Debugging and reproducibility
-- Execution → metrics → verification pipelines
+- Config → run → metrics → verification pipelines
+- Small AI / simulation-oriented engineering experiments
 
-This repo is not meant to be flashy. It exists to prove that I can independently build, debug, and iterate on engineering systems.
+This repository is not designed to look flashy. It is designed to show process: how I set up systems, run experiments, record outputs, debug failures, and gradually turn isolated scripts into reproducible engineering workflows.
 
-🔗 Repo: https://github.com/Sean-ZhiXin-Li/engineering_ai_playground
+It connects directly to my larger AI orbital-control project by strengthening the engineering foundation behind reliable experiments: environment setup, command-line workflow, metrics, validation, and documentation.
+
+🔗 Repo: https://github.com/Sean-ZhiXin-Li/the-new
 
 ---
 

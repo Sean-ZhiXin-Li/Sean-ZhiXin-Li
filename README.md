@@ -18,28 +18,44 @@ My work focuses on building reproducible simulations, explicit controllers, and 
 
 ## 🚀 Flagship Project — Spacecraft AI Controller
 
-A long-term research-engineering project on **2D orbital insertion and propulsion control**.
+A long-term research-engineering project exploring **autonomous orbital insertion and propulsion control in a physics-based 2D orbital environment**.
 
-Current milestone: **2D Phase 7.6 Soft Hybrid Controller**
+### Current Research Stage
 
-Best current result:
+**Phase36C — Non-Crossing Geometry Diagnosis**
 
-| Controller | Successes | CAPTURE entries | Near-misses |
-|---|---:|---:|---:|
-| `soft_linear_3e4` | 217 / 270 | 217 | 8 |
+The project evolved from simple rule-based controllers and PPO experiments into a structured investigation of orbital transfer geometry and recoverability.
 
-Core conclusion:
+Recent milestones:
 
-> In this 2D setting, orbit insertion is not solved by reactive learning or static gain tuning alone.  
-> It requires continuous coordination between pre-window trajectory shaping, window-seeking, and capture/lock stabilization.
+* **Phase34:** Developed a robust post-cross synchronization controller and recoverability framework.
+* **Phase36B:** Benchmarked four transfer-family designs across a reduced orbital test suite.
+* **Phase36C:** Diagnosed the remaining non-crossing cases and identified the primary bottleneck as **upstream crossing-generation**, not post-cross stabilization.
 
-What I built:
+### Key Findings
 
-- Physics-based orbital simulation
-- PPO and imitation-learning baselines
-- Explicit phase-structured controllers
-- Regime sweeps and failure-mode analysis
-- Project logs from early failures to current milestone result
+* Multiple transfer families converge to the same crossing basin.
+* Recoverability after crossing is largely solved in the current simulator.
+* The remaining challenge is generating new Phase34-compatible crossings from difficult initial conditions.
+* Geometric metrics can improve without necessarily creating new crossings.
+
+### What I Built
+
+* Physics-based orbital simulation environment
+* Explicit phase-structured spacecraft controllers
+* PPO and imitation-learning baselines
+* Transfer-family benchmark framework
+* Recoverability and crossing-basin analysis tools
+* Failure-mode diagnostics and benchmark evaluation pipelines
+* Detailed engineering and research logs documenting both successes and failures
+
+### Current Research Question
+
+> Which parameterized transfer trajectory can generate new recoverable crossings among the remaining non-crossing orbital cases?
+
+### Long-Term Direction
+
+The long-term goal is to investigate how planning, control, and learning-based methods can cooperate in autonomous spacecraft guidance, eventually extending beyond reactive control toward trajectory-generation and decision-making systems.
 
 🔗 Repo: https://github.com/Sean-ZhiXin-Li/spacecraft-ai-controller
 

@@ -129,7 +129,6 @@ My current work is still early and limited to simulation, but it gives me a conc
 
 ## 📬 Connect
 
-- GitHub: https://github.com/Sean-ZhiXin-Li
 - Email: tlizxin209625@gmail.com
 
 ---

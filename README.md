@@ -1,138 +1,33 @@
-<h1 align="center">Hi, I'm Sean (Zhixin Li)</h1>
+# Hi, I'm Sean (Zhixin Li)
 
-<p align="center">
-High school student · Self-directed researcher · AI × Spacecraft Control
-</p>
+**Robotics & autonomous systems · Dynamics and control · Perception and state estimation · Spacecraft GNC**
 
----
+I'm a high school student exploring robotics and autonomous systems through projects. I like building simulations, tracing unexpected behavior, and working out which assumption failed.
 
-## 🛰️ About Me
+Voyager and Cassini helped spark my interest in exploration. That curiosity now connects my work on robot manipulation and spacecraft control: how can a system make useful decisions from imperfect measurements, and what should it do when a plan stops matching reality?
 
-I am interested in spacecraft autonomy: how software, control, and learning systems can help a spacecraft make better propulsion decisions in uncertain environments.
+## What I'm working on
 
-My work focuses on building reproducible simulations, explicit controllers, and engineering logs. I treat failure as data, not as something to hide.
+**Independent orbital-control research.** [Spacecraft AI Controller](https://github.com/Sean-ZhiXin-Li/spacecraft-ai-controller) began with PPO and explicit-controller comparisons and grew into a study of recoverable insertion. The latest public work explores fuel-constrained planning, velocity-bias estimation, delayed fault diagnosis and bidirectional transfers in simplified 2D dynamics. In one 24-task simulator holdout with a shared 4,400-day deadline, bidirectional search achieved capture and sampled survival on 24/24 tasks, compared with 11/24 for the matched outward-only baseline. The [experiment record](https://github.com/Sean-ZhiXin-Li/spacecraft-ai-controller/blob/ff4d06229016511d38bba2c432b990e0c38be001/project_log/2026-10-23_multiregime_transfer_planning.md) also preserves the initial 0/8 development result at the shorter deadline. These are bounded simulation results, not flight validation or RL achievements.
 
-> Trajectories drift. Controllers adapt. Failure is telemetry.
+**Robot perception and feedback.** I work on simulated Franka plug insertion in NVIDIA Isaac Sim, exploring RGB-D perception, FoundationPose pose estimation, feedback control and contact recovery, with remote research guidance from the University of Michigan's [ROAHM Lab](https://www.roahmlab.com/). This work is mentor-guided and simulation-based; unpublished lab results stay private.
 
----
+## Selected public repositories
 
-## 🚀 Flagship Project — Spacecraft AI Controller
+| Repository | What you'll find |
+|---|---|
+| [spacecraft-ai-controller](https://github.com/Sean-ZhiXin-Li/spacecraft-ai-controller) | My main public research project: explicit control, orbital geometry, estimation and reproducible experiment records. Its README separates current evidence, negative results and a staged long-term autonomy roadmap. |
+| [the-new](https://github.com/Sean-ZhiXin-Li/the-new) | A collection of programming and engineering exercises, including C++, linear algebra and an AI engineering playground. It is a working exercise collection rather than a documented end-to-end research system. |
+| [tech-foundations](https://github.com/Sean-ZhiXin-Li/tech-foundations) | A foundations archive marked **Frozen (2025)**, covering control, simulation, experiment logging and hardware awareness. I retain it as earlier learning context. |
 
-A long-term research-engineering project exploring **autonomous orbital insertion and propulsion control in a physics-based 2D orbital environment**.
+## Questions I'm learning to answer
 
-### Current Research Stage
+- How can dynamics, geometry and uncertainty estimates help a planner choose actions that remain recoverable?
+- When should a controller wait for better evidence, adjust a plan, recover, or stop?
+- How can perception and contact information support manipulation without hiding privileged simulator assistance?
 
-**Phase36C — Non-Crossing Geometry Diagnosis**
+I'm continuing to build my foundations in mathematics, control and estimation, C++ and embedded systems. Longer term, I want to explore how these pieces support resilient robots and space probes. Those are learning directions, separate from what my current experiments demonstrate.
 
-The project evolved from simple rule-based controllers and PPO experiments into a structured investigation of orbital transfer geometry and recoverability.
+I value clear baselines, useful failure logs and claims that another person can check. I welcome thoughtful technical conversations and collaboration around those questions.
 
-Recent milestones:
-
-* **Phase34:** Developed a robust post-cross synchronization controller and recoverability framework.
-* **Phase36B:** Benchmarked four transfer-family designs across a reduced orbital test suite.
-* **Phase36C:** Diagnosed the remaining non-crossing cases and identified the primary bottleneck as **upstream crossing-generation**, not post-cross stabilization.
-
-### Key Findings
-
-* Multiple transfer families converge to the same crossing basin.
-* Recoverability after crossing is largely solved in the current simulator.
-* The remaining challenge is generating new Phase34-compatible crossings from difficult initial conditions.
-* Geometric metrics can improve without necessarily creating new crossings.
-
-### What I Built
-
-* Physics-based orbital simulation environment
-* Explicit phase-structured spacecraft controllers
-* PPO and imitation-learning baselines
-* Transfer-family benchmark framework
-* Recoverability and crossing-basin analysis tools
-* Failure-mode diagnostics and benchmark evaluation pipelines
-* Detailed engineering and research logs documenting both successes and failures
-
-### Current Research Question
-
-> Which parameterized transfer trajectory can generate new recoverable crossings among the remaining non-crossing orbital cases?
-
-### Long-Term Direction
-
-The long-term goal is to investigate how planning, control, and learning-based methods can cooperate in autonomous spacecraft guidance, eventually extending beyond reactive control toward trajectory-generation and decision-making systems.
-
-🔗 Repo: https://github.com/Sean-ZhiXin-Li/spacecraft-ai-controller
-
----
-
-## 🧪 the-new
-
-A unified engineering workspace for building lab-ready systems habits through real execution.
-
-Current focus:
-
-- Python engineering from scratch
-- Linux / WSL workflow
-- Git discipline and repo hygiene
-- Debugging and reproducibility
-- Config → run → metrics → verification pipelines
-- Small AI / simulation-oriented engineering experiments
-
-This repository is not designed to look flashy. It is designed to show process: how I set up systems, run experiments, record outputs, debug failures, and gradually turn isolated scripts into reproducible engineering workflows.
-
-It connects directly to my larger AI orbital-control project by strengthening the engineering foundation behind reliable experiments: environment setup, command-line workflow, metrics, validation, and documentation.
-
-🔗 Repo: https://github.com/Sean-ZhiXin-Li/the-new
-
----
-
-## 🛠️ Tech Foundations
-
-I am also building foundations in areas that support spacecraft autonomy:
-
-- Control systems
-- Robotics
-- Embedded systems
-- Reinforcement learning
-- Simulation engineering
-- Basic CAD / CubeSat structure exploration
-
-🔗 Repo: https://github.com/Sean-ZhiXin-Li/tech-foundations
-
----
-
-## 💻 Languages Used
-
-<p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Sean-ZhiXin-Li&layout=compact&langs_count=6&hide=html,css&theme=github_dark" />
-</p>
-
----
-
-## 📓 Research Philosophy
-
-I care about process integrity.
-
-- Logs preserve the reasoning path
-- Bugs reveal structure
-- Negative results are evidence
-- Reproducibility matters more than appearance
-- Progress is often spiral, not linear
-
-Open-ended engineering projects taught me persistence more than drills or competitions did.
-
----
-
-## 🌌 Long-Term Direction
-
-I want to keep working toward spacecraft autonomy: controllers that can adapt, degrade gracefully, and survive uncertainty.
-
-My current work is still early and limited to simulation, but it gives me a concrete path to learn control, AI, physics, and engineering through one long-term system.
-
----
-
-## 📬 Connect
-
-- Email: tlizxin209625@gmail.com
-
----
-
-<p align="center">
-  <b>Focus:</b> AI × Spacecraft Control · Simulation · Reproducible Engineering
-</p>
+**Contact:** [tlizxin209625@gmail.com](mailto:tlizxin209625@gmail.com)

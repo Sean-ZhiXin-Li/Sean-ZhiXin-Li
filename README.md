@@ -12,6 +12,10 @@ Voyager and Cassini helped spark my interest in exploration. That curiosity now 
 
 **Robot perception and feedback.** I work on simulated Franka plug insertion in NVIDIA Isaac Sim, exploring RGB-D perception, FoundationPose pose estimation, feedback control and contact recovery, with remote research guidance from the University of Michigan's [ROAHM Lab](https://www.roahmlab.com/). This work is mentor-guided and simulation-based.
 
+## External Interest & Recognition
+
+- **XERJ Corpus Hub (October 2026):** My spacecraft-ai-controller repository attracted the attention of XERJ, which selected my bidirectional fuel-constrained orbital transfer implementation for inclusion in its attributed code corpus. The selected contribution spans approximately 20 files and 2,000 lines of Python code, tests, and experimental artifacts.
+
 ## Selected public repositories
 
 | Repository | What you'll find |
